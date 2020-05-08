@@ -1,4 +1,5 @@
 /*
+SPDX-License-Identifier: GPL-3.0-only OR CDDL-1.0
 Copyright 2018-2020 Gephi
 Authors : Joshua Gould <jgould@broadinstitute.org>
 Website : http://www.gephi.org

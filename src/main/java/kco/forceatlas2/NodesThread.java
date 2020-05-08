@@ -1,4 +1,5 @@
 /*
+SPDX-License-Identifier: GPL-3.0-only OR CDDL-1.0
 Copyright 2008-2011 Gephi
 Authors : Mathieu Jacomy <mathieu.jacomy@gmail.com>
 Website : http://www.gephi.org
