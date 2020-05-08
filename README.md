@@ -1,4 +1,4 @@
-# Multithreaded [Gephi](https://gephi.org/) Force Atlas2 Layout in 2 or 3-d
+# Multithreaded [Gephi](https://gephi.org/) Force Atlas2 Layout in 2D or 3D
 
 ## Features
 
@@ -7,7 +7,7 @@
 - Parallel force, attraction, and speed computations
 - Option to rebuild Barnes-Hut tree every n iterations
 - Option to update Barnes-Hut tree centers every n iterations
-- Command line interface 
+- Command line interface
 
 ## Installation
 Download gephi-toolkit-0.9.2-all.jar and forceatlas2.jar from https://github.com/klarman-cell-observatory/forceatlas2/releases
@@ -47,5 +47,6 @@ Flag | Description | Default Value
 
 
 ## Example Datasets
+
 [Gephi example datasets](https://github.com/gephi/gephi/wiki/Datasets)
 
