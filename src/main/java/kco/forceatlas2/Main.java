@@ -161,14 +161,22 @@ public class Main {
         Boolean updateCenter = false;
         Integer barnesHutSplits = null;
 
-
-        File file = new File(getArg("input"));
+        final String inputArg = getArg("input");
+        if (inputArg == null) {
+            System.err.println("Please supply an input graph with --input 'path/to/graph.some_ext'.");
+            System.exit(1);
+        }
+        File file = new File(inputArg);
         if (!file.exists()) {
             System.err.println(file + " not found.");
             System.exit(1);
         }
 
         String output = getArg("output");
+        if (output == null) {
+            System.err.println("Please supply an output file with --output 'path/to/output.txt'.");
+            System.exit(1);
+        }
         
         if (getArg("nsteps") != null) {
             nsteps = Integer.parseInt(getArg("nsteps"));
