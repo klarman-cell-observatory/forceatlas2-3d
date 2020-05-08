@@ -430,6 +430,11 @@ public class Main {
 
         long endTime = System.currentTimeMillis();
         System.out.println("Time = " + (endTime - startTime) / 1000.0 + "s");
+
+        // HACK We do this to kill a still running thread-group at this time.
+        //      The fact we have to do this, is a sign of something not cleaned up properly,
+        //      which should be fixed instead.
+        System.exit(0);
     }
 
     private static class Arg {
