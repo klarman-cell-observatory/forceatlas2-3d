@@ -35,6 +35,12 @@
     <dependencies>
         <dependency>
             <groupId>org.gephi</groupId>
+            <artifactId>gephi-toolkit</artifactId>
+            <version>${gephi.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.gephi</groupId>
             <artifactId>project-api</artifactId>
             <version>${gephi.version}</version>
         </dependency>
